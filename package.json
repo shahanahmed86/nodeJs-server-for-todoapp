@@ -1,0 +1,16 @@
+{
+  "name": "todoserver",
+  "version": "1.0.0",
+  "description": "Using NodeJs Server for Todo-App",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahan Ahmed Khan",
+  "license": "ISC"
+}
