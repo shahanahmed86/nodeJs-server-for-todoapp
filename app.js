@@ -14,6 +14,7 @@ const todos = [];
 
 app.get('/api/todos', (req, res) => {
     res.send(todos);
+    console.table(todos);
 });
 
 app.post('/api/todos', (req, res) => {
